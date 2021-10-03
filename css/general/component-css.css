@@ -48,6 +48,12 @@
   width: 250px;
 }
 
+@media (max-width: 768px) {
+  .skill-block-level {
+    width: 200px;
+  }
+}
+
 .section-header-description {
   font-weight: 300;
   margin-top: 30px;
@@ -82,11 +88,24 @@
   margin: 40px;
 }
 
+@media (max-width: 768px) {
+  .section-middle {
+    margin: 30px;
+  }
+}
+
 .section-header {
   justify-self: center;
   margin-bottom: 50px;
+  row-gap: 10px;
   text-align: center;
   width: 500px;
+}
+
+@media (max-width: 576px) {
+  .section-header {
+    width: auto;
+  }
 }
 
 .service-block-icon {
@@ -107,9 +126,9 @@
 
 .service-block {
   background-image: linear-gradient(var(--color-482bfccc) 0%, var(--color-482bfccc) 100%);
+  max-width: 300px;
   row-gap: 20px;
   text-decoration-color: rgb(254, 253, 253);
-  width: 300px;
   padding: 20px;
   border-radius: 10px;
 }
